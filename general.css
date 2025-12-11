@@ -85,22 +85,25 @@ nav ul li a:hover {
 }
 
 .msg-container {
-  gap: 20px;
-  padding: 30px 30px 30px;
+  gap: 5px;
+  padding: 10px 10px 10px;
   display: grid;
 }
  
 .columns1 {
-    border-radius: 30px;
+    border-radius: 15px 0px 15px 0px;
     overflow: hidden;
     transition: 0.3s;
-    background: #f7e0ee;
+    background: #ffe3f6;
+    margin-top: 15px;
 }
 
 .columns1 img {
+  padding: 20px;
   float: left;
   height: 190px;
   object-fit: cover;
+  border-radius: 85px;
 }
 
 h4 {
@@ -108,8 +111,27 @@ h4 {
   color: #e64e8d
 }
 
+.h4one {
+  padding-top: 15px;
+}
+
+.h4two {
+  padding-top: 15px;
+}
+
 .msg-content p {
   padding: 15px;
+}
+
+.columns1:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 11px 25px rgba(2, 0, 0, 0.062)
+}
+
+.columns1:hover {
+  color: rgb(134, 0, 151);
+  text-shadow: 0 11px 11px rgba(75, 5, 32, 0.315);
+  transition: 0.5s;
 }
 
 /* .hero h2 {
