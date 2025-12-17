@@ -136,3 +136,9 @@ a {
 h4 {
     text-shadow: 0 10px 25px rgba(107, 13, 110, 0.445);
 }
+
+h1 {
+    color: #f7619f;
+    text-align: center;
+    padding: 10px;
+}
