@@ -107,7 +107,7 @@
       background-color: #ffe6f0;
       padding: 15px;
       border-radius: 15px;
-      width: 70%;
+      width: 90%;
       margin-right: 20px;
       min-width: 300px;
       margin-left: 20px;
@@ -167,17 +167,19 @@
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.384);
   }
 
-   .gif {
+   div.gif a img{
       transition: transform 0.3s ease, box-shadow 0.3s ease;
-      border-width: 300px;
       margin-right: 900px;
       margin-bottom: 10px;
-      width: 300px;
       margin-left: 20px;
       border-radius: 20px;
+      position: absolute;
+      top: 99%;
+      left: 0.11%;
+      width: 570px;
   }
 
-  .gif:hover {
+  div.gif a img:hover {
       transform: scale(1.05);
       box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
   }
@@ -190,7 +192,7 @@
       justify-content: center;
       gap: 20px;
       position: absolute;
-      top: 40%;
+      top: 60%;
       left: 37.5%;
   }
 
